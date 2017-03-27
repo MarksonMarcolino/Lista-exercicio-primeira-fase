@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.satc.exercicios;
 
-/**
- *
- * @author Markson
+import java.util.Scanner;
+
+/*
+ * @author Maurício
  */
 public class Exercicio1 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite o raio do círculo: ");
+        float raio = entrada.nextFloat();
+        double comprimento= Math.PI*Math.pow(raio, 2);
+        System.out.println("A área do círculo é de: "+comprimento);
+        
+                
     }
     
 }
