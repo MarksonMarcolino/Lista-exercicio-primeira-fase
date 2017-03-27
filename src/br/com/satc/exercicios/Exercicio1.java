@@ -5,17 +5,19 @@
  */
 package br.com.satc.exercicios;
 
-/**
- *
- * @author Markson
- */
+import java.util.Scanner;
+
 public class Exercicio1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public static void main(String[] args) {
+     System.out.println("Digite o raio");
+     Scanner entrada =new Scanner(System.in);    
+     double raio = entrada.nextDouble();
+     double area = 3.14 * (raio*raio);
+     System.out.print("A área é igual a : " +area+".");
+         
+         
+         
     }
     
 }
